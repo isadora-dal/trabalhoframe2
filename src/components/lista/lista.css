@@ -1,0 +1,22 @@
+.resultado{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.15);
+    padding: 0.5em 0;
+    font-size: 1.3em;
+    border-radius: 0.25em;
+    color: #343a40;
+    background-color: #e9ecef;
+    margin-top: 1em;
+}
+.oda{
+    border: 1px solid rgba(0,0,0,.15);
+    padding: 0.5em 1em;
+    margin-top: 2em;
+}
+.oda > h1{
+    text-align: center;
+}
+.oda > .descricao{
+    font-size: 1.25em;
+}

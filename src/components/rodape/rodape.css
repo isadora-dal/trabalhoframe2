@@ -1,0 +1,22 @@
+.rodape{
+    margin-top: 3em;
+    background-color: #343a40;
+    padding: 1em 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h2{
+    font-size: 3em;
+    margin-right: 2em;
+    position: relative;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    right: -1em;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+}

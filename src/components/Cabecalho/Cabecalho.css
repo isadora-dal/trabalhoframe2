@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: space-between;
+    padding: 2px 1.5em;
+    background-color: #343a40;
+    font-size: 1.8em;
+}
+
+.left-container{
+    display: flex;
+}
+.left-container > div{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+header h1{
+    color : white;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.icone{
+    margin-right: 0.5em;
+    height: 1em;
+}
+
+.yellow{
+    color: #ffc107;
+}
+.logo{
+    height: 2.5em;
+    width: auto;
+}
+.right-container{
+    display: flex;
+    color : white;
+    align-items: center;
+    font-weight: 400;
+}
